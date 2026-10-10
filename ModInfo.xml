@@ -1,8 +1,8 @@
 <xml>	
-	<Name value="PfaltzUI" />
-	<DisplayName value="PfaltzUI" />
-	<Version value="1.8" />
-	<Description value="Custom UI" />
+	<Name value="VerticalUI" />
+	<DisplayName value="VerticalUI" />
+	<Version value="2.0.0" />
+	<Description value="Server-side Vertical UI for 7 Days to Die. Adapted to 3.3." />
 	<Author value="AlexPfaltz" />
-	<Website value="https://github.com/AlexPfaltz/PfaltzUI" />
+	<Website value="https://github.com/AlexPfaltz/VerticalUI" />
 </xml>

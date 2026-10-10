@@ -1,0 +1,468 @@
+<Config>
+	<remove xpath="/windows/window[@name='itemInfoPanel']"/>
+	<remove xpath="/windows/window[@name='buffInfoPanel']"/>
+	<remove xpath="/windows/window[@name='serviceInfoPanel']"/>
+
+	<set xpath="/windows/window[@name='windowToolsForge']/@panel">Left</set>
+	<setattribute xpath="/windows/window[@name='windowToolsForge']/rect[@style='header.panel']" name="pos">406,784</setattribute>
+	<set xpath="/windows/window[@name='windowToolsForge']/rect[@name='content']/@pos">406,738</set>
+	
+	<set xpath="/windows/window[@name='windowToolsCampfire']/@panel">Left</set>
+	<setattribute xpath="/windows/window[@name='windowToolsCampfire']/rect[@style='header.panel']" name="pos">406,784</setattribute>
+	<set xpath="/windows/window[@name='windowToolsCampfire']/rect[@name='content']/@pos">406,738</set>
+
+	<set xpath="/windows/window[@name='windowFuel']/@panel">Left</set>
+	<set xpath="/windows/window[@name='windowFuel']/@height">166</set>
+	<setattribute xpath="/windows/window[@name='windowFuel']/rect[@style='header.panel']" name="pos">406,784</setattribute>
+	<set xpath="/windows/window[@name='windowFuel']/rect[@name='content']/@pos">406,738</set>
+	<set xpath="/windows/window[@name='windowFuel']/rect[@name='buttonContent']/@pos">406,663</set>
+
+	<set xpath="/windows/window[@name='windowForgeInput']/@panel">Left</set>
+	<setattribute xpath="/windows/window[@name='windowForgeInput']/rect[@style='header.panel']" name="pos">406,784</setattribute>
+	<set xpath="/windows/window[@name='windowForgeInput']/sprite[@name='backgroundMain']/@pos">406,738</set>
+	<set xpath="/windows/window[@name='windowForgeInput']/rect[@name='content']/@pos">406,738</set>
+	<set xpath="/windows/window[@name='windowForgeInput']/rect[@name='content2']/@pos">484,735</set>
+
+	<set xpath="/windows/window[@name='windowOutput']/@panel">Left</set>
+	<setattribute xpath="/windows/window[@name='windowOutput']/rect[@style='header.panel']" name="pos">406,784</setattribute>
+	<set xpath="/windows/window[@name='windowOutput']/rect[@name='content']/@pos">406,738</set>
+
+	<set xpath="/windows/window[@name='craftingInfoPanel']/@width">436</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/@height">726</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='header']/rect[@name='requiredToolOverlay']/@pos">192,0</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/@height">680</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/sprite[@name='backgroundMain']/@width">436</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/sprite[@name='backgroundMain']/@height">680</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='preview']/@width">372</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='preview']/@height">230</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='preview']/sprite[@name='backgroundMain']/@depth">2</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='preview']/sprite[@name='backgroundMain']/@width">378</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='preview']/sprite[@name='backgroundMain']/@height">236</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='preview']/sprite[@name='clockIcon']/@depth">13</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='preview']/sprite[@name='clockIcon']/@pos">245, -12</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='preview']/sprite[@name='clockIcon']/@size">32,32</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='preview']/label[@name='craftingTime']/@depth">13</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='preview']/label[@name='craftingTime']/@pos">280, -10</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='preview']/label[@name='craftingTime']/@width">200</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='preview']/label[@name='craftingTime']/@height">64</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='preview']/label[@name='craftingTime']/@font_size">40</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='preview']/sprite[@name='itemPreview']/@width">200</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='preview']/sprite[@name='itemPreview']/@height">200</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='preview']/sprite[@name='itemPreview']/@pos">170,-115</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='preview']/sprite[@name='itemtypeicon']/@pos">4,-8</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='preview']/sprite[@name='durabilityBackground']/@depth">5</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='preview']/sprite[@name='durabilityBackground']/@pos">40, -197</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='preview']/sprite[@name='durabilityBackground']/@width">294</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='preview']/sprite[@name='durabilityBackground']/@height">20</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='preview']/sprite[@name='durabilityBar']/@depth">6</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='preview']/sprite[@name='durabilityBar']/@pos">40, -197</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='preview']/sprite[@name='durabilityBar']/@width">294</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='preview']/sprite[@name='durabilityBar']/@height">20</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='preview']/label[@name='durabilityValue']/@depth">13</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='preview']/label[@name='durabilityValue']/@pos">30,-170</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='preview']/label[@name='durabilityValue']/@width">314</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='preview']/label[@name='durabilityValue']/@height">42</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='preview']/button[@name='subtractQualityButton']/@depth">13</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='preview']/button[@name='subtractQualityButton']/@pos">18,-207</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='preview']/button[@name='addQualityButton']/@depth">13</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='preview']/button[@name='addQualityButton']/@pos">356,-207</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/sprite[@name='backgroundMain']/@pos">375,0</set>
+	<remove xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/sprite[@depth='8']"/>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/grid[@name='itemActions']/@pos">378,0</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/grid[@name='itemActions']/@width">56</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/grid[@name='itemActions']/@cell_width">56</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/grid[@name='itemActions']/@cell_height">70</set>
+	<remove xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/grid[@name='itemActions']/item_action_entry"/>
+	<insertBefore xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/grid[@name='itemActions']/rect[@name='actions']">
+		<item_action_entry />
+		<item_action_entry />
+		<item_action_entry />
+	</insertBefore>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/grid[@name='itemActions']/rect[@name='actions']/@width">56</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/grid[@name='itemActions']/rect[@name='actions']/@height">120</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/grid[@name='itemActions']/rect[@name='actions']/sprite/@height">350</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/grid[@name='itemActions']/rect[@name='actions']/rect[@name='recipeCraftCountControl']/@pos">0,-60</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/grid[@name='itemActions']/rect[@name='actions']/rect[@name='recipeCraftCountControl']/@width">56</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/grid[@name='itemActions']/rect[@name='actions']/rect[@name='recipeCraftCountControl']/@height">120</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/grid[@name='itemActions']/rect[@name='actions']/rect[@name='recipeCraftCountControl']/button[@name='countMax']/@pos">31,-64</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/grid[@name='itemActions']/rect[@name='actions']/rect[@name='recipeCraftCountControl']/button[@name='countUp']/@pos">31,-96</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/grid[@name='itemActions']/rect[@name='actions']/rect[@name='recipeCraftCountControl']/textfield[@name='count_input']/@pos">8,-114</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/grid[@name='itemActions']/rect[@name='actions']/rect[@name='recipeCraftCountControl']/textfield[@name='count_input']/@width">40</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/grid[@name='itemActions']/rect[@name='actions']/rect[@name='recipeCraftCountControl']/textfield[@name='count_input']/@height">28</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/grid[@name='itemActions']/rect[@name='actions']/rect[@name='recipeCraftCountControl']/button[@name='countDown']/@pos">31,-160</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='searchControls']/@pos">378,-554</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='searchControls']/@width">56</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='searchControls']/@height">124</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='searchControls']/button[@name='ingredientsButton']/@pos">0,0</set>
+	<setattribute xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='searchControls']/button[@name='ingredientsButton']" name ="size">0,0</setattribute>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='searchControls']/button[@name='ingredientsButton']/@selected">false</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='searchControls']/button[@name='descriptionButton']/@pos">31,-22</set>
+	<setattribute xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='searchControls']/button[@name='descriptionButton']" name ="selected">true</setattribute>
+	<setattribute xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='searchControls']/button[@name='descriptionButton']" name ="visible">{showunlockedbytab}</setattribute>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='searchControls']/button[@name='showunlocksButton']/@pos">31,-62</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='description']/@pos">3,-233</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='description']/@width">372</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='description']/@height">330</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='description']/@visible">true</set>
+	<setattribute xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='description']/rect" name ="pos">0,-43</setattribute>
+	<append xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='description']">
+		<sprite depth="1" sprite="menu_empty3px" pos="-3,0" width="378" color="[black]" type="sliced" fillcenter="false" />
+	</append>
+	<append xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='description']">
+		<rect depth="1" name="header" pos="0,0" height="43">
+			<sprite color="[lightGrey]" type="sliced" />
+			<sprite depth="8" sprite="menu_empty3px" width="378" pos="-3,0" color="[black]" type="sliced" fillcenter="false" />
+			<label depth="1" pos="0,-22" font_size="32" text="DESCRIPTION" text_key="xuiDescriptionLabel" pivot="left" justify="center" color="[white]" />
+		</rect>
+	</append>
+	<remove xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='description']/sprite[@name='backgroundMain']"/>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='description']/rect/label[@name='descriptionText']/@pos">10,-10</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='description']/rect/label[@name='descriptionText']/@width">352</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='description']/rect/label[@name='descriptionText']/@height">330</set>
+	
+	<setattribute xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='ingredients']" name="pos">3,-563</setattribute>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='ingredients']/@width">372</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='ingredients']/@height">118</set>
+	<append xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='ingredients']">
+		<rect depth="1" name="header" pos="0,0" height="43">
+			<sprite color="[lightGrey]" type="sliced" />
+			<sprite depth="8" sprite="menu_empty3px" width="378" pos="-3,0" color="[black]" type="sliced" fillcenter="false" />
+			<label depth="1" pos="0,-22" font_size="32" text="INGREDIENTS" text_key="xuiIngredients" pivot="left" justify="center" color="[white]" />
+		</rect>
+	</append>
+	<setattribute xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='ingredients']/grid" name="pos">0,-43</setattribute>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='ingredients']/grid/@width">372</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='ingredients']/grid/@height">75</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='ingredients']/grid/@rows">1</set>
+	<setattribute xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='ingredients']/grid" name ="cols">5</setattribute>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='ingredients']/grid/@cell_width">75</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='ingredients']/grid/@cell_height">75</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='ingredients']/grid/@arrangement">horizontal</set>
+	<remove xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='ingredients']/grid/ingredient_header"/>
+
+	<setattribute xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='unlockedBy']" name="pos">3,-563</setattribute>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='ingredients']/@visible">{#!showunlockedby}</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='unlockedBy']/@width">372</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='unlockedBy']/@height">118</set>
+	<append xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='unlockedBy']">
+		<rect depth="1" name="header" pos="0,0" height="43">
+			<sprite color="[lightGrey]" type="sliced" />
+			<sprite depth="8" sprite="menu_empty3px" width="378" pos="-3,0" color="[black]" type="sliced" fillcenter="false" />
+			<label depth="1" pos="0,-22" font_size="32" text="UNLOCKBY" text_key="xuiUnlockBy" pivot="left" justify="center" color="[white]" />
+		</rect>
+	</append>
+	<setattribute xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='unlockedBy']/grid" name="pos">0,-43</setattribute>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='unlockedBy']/grid/@width">372</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='unlockedBy']/grid/@height">75</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='unlockedBy']/grid/@rows">1</set>
+	<setattribute xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='unlockedBy']/grid" name ="cols">1</setattribute>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='unlockedBy']/grid/@cell_width">372</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='unlockedBy']/grid/@cell_height">75</set>
+	<remove xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='unlockedBy']/grid/unlocked_by_header"/>
+	<remove xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='unlockedBy']/grid/unlocked_by_row"/>
+	<append xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='unlockedBy']/grid">
+		<unlocked_by_row name="1"/>
+	</append>
+
+    <append xpath="/windows">
+		<window name="windowCraftingListWorkstation"  width="636" height="645" controller="CraftingListInfo" panel="Left" cursor_area="true" >
+			<rect name="content" width="397" height="650" depth="1" pos="0,0" on_scroll="true">
+
+				<rect depth="2" name="categorySelector" width="390" height="44" pos="3,-6">
+					<headerbg />
+					<sprite name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="396" height="49" color="[black]" type="sliced" fillcenter="false" />
+					<grid name="categories" pos="23,-21" rows="1" cols="9" width="390" height="43" cell_width="43" cell_height="43" repeat_content="true" controller="CategoryList">
+						<category_icon />
+					</grid>
+				</rect>
+
+				<rect depth="3" name="searchControls" width="390" height="44" pos="3,-52">
+					<sprite name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="396" height="49" color="[black]" type="sliced" fillcenter="false" />
+					<sprite color="[darkGrey]" type="sliced" />
+					<button depth="4" name="favorites" style="icon30px, press" pos="18,-22" sprite="server_favorite" pivot="center" sound="[paging_click]" tooltip="Favorites" tooltip_key="lblFavorites" collider_scale="1.5" />
+
+					<rect pos="104,0" width="200">
+						<sprite depth="4" name="searchIcon" style="icon30px" pos="0,-22" sprite="ui_game_symbol_search" pivot="center"/>
+						<textfield depth="5" name="searchInput" pos="22,-7" width="140" height="30" virtual_keyboard_prompt="vkPromptSearchTerm" search_field="true" close_group_on_tab="true" clear_button="true" />
+					</rect>
+
+					<rect pos="286,0" width="104" height="43">
+						<pager name="pager" pos="4,-6" contents_parent="content"/>
+					</rect>
+				</rect>
+
+				<grid name="recipes" depth="2" rows="12" cols="1" pos="3,-98" width="390" height="552" cell_width="390" cell_height="46" controller="RecipeList" repeat_content="true" arrangement="vertical" >
+					<recipe_entry name="0"/>
+				</grid>
+			</rect>
+		</window>
+		<window name="itemInfoPanel" width="436" height="726" controller="ItemInfoWindow" panel="Center" cursor_area="true" >
+		    <rect name="header" height="43" depth="1" >
+				<headerbg />
+			    <sprite depth="2" name="windowIcon" style="icon32px" pos="4,-5" sprite="{itemgroupicon}"/>
+			    <label depth="2" name="windowName" pos="39,-6" width="340" height="32" text="{itemname}" font_size="32" />
+		    </rect>
+		    <rect name="contentInfo" height="680" depth="1" pos="0,-46" >
+			    <sprite depth="5" name="backgroundMain" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" />
+			    <label depth="6" pos="334,-4" width="200" height="46" text="{itemcost}{markup}" font_size="46" pivot="topright" justify="right" />
+			    <sprite depth="6" name="costIcon" sprite="ui_game_symbol_coin" size="32,32" pos="336,-6" color="[white]" foregroundlayer="true" />
+			    <rect depth="3" name="preview" pos="3,-3" width="372" height="230">
+		    		<sprite depth="2" name="backgroundMain" pos="-3,3" width="378" height="236" sprite="menu_empty3px"  color="[black]" type="sliced" fillcenter="false" />
+					<sprite depth="1" color="[darkGrey]" pos="0,0" type="sliced" globalopacity="true" />
+			    	<sprite depth="12" name="itemPreview" pos="170,-115" width="200" height="200" atlas="ItemIconAtlas" sprite="{itemicon}" color="{itemicontint}" pivot="center" foregroundlayer="true"/>
+			   		<sprite depth="8" name="itemtypeicon" pos="4,-8" width="32" height="32" sprite="ui_game_symbol_{itemtypeicon}" foregroundlayer="true" visible="{hasitemtypeicon}" color="{itemtypeicontint}" />
+			    	<sprite depth="5" name="durabilityBackground" pos="40, -197" width="294" height="20" color="48,48,48,255" type="sliced" visible="{hasdurability}"/>
+			    	<filledsprite depth="5" name="removedurabilityBar" height="20" width="294" color="48,48,48,255" type="filled" pos="40, -197" fill="{removeddurabilityfill}" fillspritepad="true" globalopacitymod="0" visible="{hasdurability}" />
+					<filledsprite depth="6" name="durabilityBar" pos="40, -197" width="294" height="20" color="{durabilitycolor}" type="filled" fill="{durabilityfill}" visible="{hasdurability}" />
+					<label depth="13" name="durabilityValue" pos="30,-170" width="314" height="42" text="{durabilitytext}" font_size="40" justify="{durabilityjustify}" effect="outline" visible="{hasdurability}"/>
+					<label depth="13" name="itemCount" pos="162,-185" width="200" height="52" text="{durabilitytext}" font_size="40" justify="{durabilityjustify}" color="[white]" visible="{#!hasdurability}" />
+				</rect>
+			    <rect depth="1" pos="375,0" width="60" height="680">
+					<rect pos="2,-2" width="58" visible="{shownormaloptions}" >
+						<sprite pos="0,-350" height="327" color="[mediumGrey]" type="sliced" />
+						<grid name="itemActions" rows="5" cols="1" pos="0,0" width="58" cell_width="58" cell_height="70" controller="ItemActionList" repeat_content="true">
+						    <item_action_entry />
+					    </grid>
+				    </rect>
+					<rect pos="2,-2" width="58" visible="{showtraderoptions}" >
+				    	<sprite pos="0,-280" height="400" color="[mediumGrey]" type="sliced" />
+						<grid name="vendorItemActions" rows="4" cols="1" pos="0,0" width="58" cell_width="58" cell_height="70" controller="ItemActionList" repeat_content="true">
+				    		<item_action_entry />
+				    	</grid>
+				    	<rect name="counterControl" width="36" height="120" pos="0,-320" controller="Counter">
+				    		<button depth="4" name="countMax" style="icon30px, press" pos="31,0" sprite="ui_game_symbol_arrow_max" pivot="center" sound="[paging_click]"/>
+					    	<button depth="4" name="countUp" style="icon30px, press, held" pos="31,-37" sprite="ui_game_symbol_arrow_right" pivot="center" sound="[paging_click]"/>
+					    	<textfield name="count_input" depth="4" pos="8,-58" width="40" height="28" character_limit="4" validation="integer" virtual_keyboard_prompt="vkPromptCount" />
+					    	<button depth="4" name="countDown" style="icon30px, press, held" pos="31,-107" sprite="ui_game_symbol_arrow_left" pivot="center" sound="[paging_click]"/>
+				    	</rect>
+				    </rect>
+				    <rect depth="2" name="searchControls" width="36" height="81" pos="0,-596" visible="{showstatanddescription}">
+				    	<button depth="4" name="statButton" style="icon30px, press" pos="31,0" sprite="ui_game_symbol_ping" pivot="center" tooltip="Stats" tooltip_key="lblStats" sound="[paging_click]" selected="true" />
+				    	<button depth="4" name="descriptionButton" style="icon30px, press" pos="31,-50" sprite="ui_game_symbol_book" pivot="center" tooltip="Description" tooltip_key="lblDescription" sound="[paging_click]" />
+				    </rect>
+		    	</rect>
+		    	<rect depth="1" pos="3,-233" name="description" width="372" height="330" visible="{showonlydescription}">
+					<sprite depth="3" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="378" height="336" color="[black]" type="sliced" fillcenter="false" />
+					<rect depth="1" name="header" pos="0,0" height="43">
+						<sprite color="[lightGrey]" type="sliced" />
+						<sprite depth="8" sprite="menu_empty3px" width="378" pos="-3,0" color="[black]" type="sliced" fillcenter="false" />
+						<label depth="1" pos="0,-22" font_size="32" text="DESCRIPTION" text_key="xuiDescriptionLabel" pivot="left" justify="center" color="[white]" />
+					</rect>
+					<rect pos="0,-43" height="287">
+						<sprite depth="1" color="[darkGrey]" type="sliced" globalopacity="true" />
+			    		<label depth="3" name="descriptionText" pos="6,-10" text="{itemdescription}" width="360" parse_actions="true" />
+					</rect>
+			    </rect>
+			    <rect depth="1" pos="3,-233" name="description" width="372" height="330" visible="{showstatanddescription}">
+				    <sprite depth="3" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="378" height="336" color="[black]" type="sliced" fillcenter="false" />
+				    <rect depth="3" visible="{showstats}">
+						<rect depth="1" name="header" pos="0,0" height="43">
+							<sprite color="[lightGrey]" type="sliced" />
+							<sprite depth="8" sprite="menu_empty3px" width="378" pos="-3,0" color="[black]" type="sliced" fillcenter="false" />
+							<label depth="1" pos="0,-22" font_size="32" text="STATS" text_key="xuiStats" pivot="left" justify="center" color="[white]" />
+						</rect>
+				    	<rect pos="0,-41" height="43">
+				    		<sprite depth="8" sprite="menu_empty3px" width="378" height="43" pos="-3,0" color="[black]" type="sliced" fillcenter="false" />
+					    	<sprite depth="1" color="[darkestGrey]" pos="0,-1" height="42" type="sliced" />
+					    	<label depth="3" pos="10,-22" width="356" font_size="26" text="{itemstattitle1}" pivot="left" justify="left" color="[white]" />
+					    	<label depth="3" pos="10,-22" width="356" font_size="26" text="{itemstat1}" pivot="left" justify="right" color="[selectedColor]" />
+					    </rect>
+					    <rect pos="0,-82" height="43">
+					    	<sprite depth="8" sprite="menu_empty3px" width="378" height="43" pos="-3,0" color="[black]" type="sliced" fillcenter="false" />
+					    	<sprite depth="1" color="[darkGrey]" type="sliced" />
+					    	<label depth="3" pos="10,-22" width="356" font_size="26" text="{itemstattitle2}" pivot="left" justify="left" color="[white]" />
+					    	<label depth="3" pos="10,-22" width="356" font_size="26" text="{itemstat2}" pivot="left" justify="right" color="[selectedColor]" />
+					    </rect>
+					    <rect pos="0,-125" height="43">
+					    	<sprite depth="8" sprite="menu_empty3px" width="378" height="43" pos="-3,0" color="[black]" type="sliced" fillcenter="false" />
+					    	<sprite depth="1" color="[darkestGrey]" pos="0,-1" height="42" type="sliced" />
+					    	<label depth="3" pos="10,-22" width="356" font_size="26" text="{itemstattitle3}" pivot="left" justify="left" color="[white]" />
+					    	<label depth="3" pos="10,-22" width="356" font_size="26" text="{itemstat3}" pivot="left" justify="right" color="[selectedColor]" />
+					    </rect>
+					    <rect pos="0,-166" height="43">
+					    	<sprite depth="8" sprite="menu_empty3px" width="378" height="43" pos="-3,0" color="[black]" type="sliced" fillcenter="false" />
+						    <sprite depth="1" color="[darkGrey]" type="sliced" />
+					    	<label depth="3" pos="10,-22" width="356" font_size="26" text="{itemstattitle4}" pivot="left" justify="left" color="[white]" />
+					    	<label depth="3" pos="10,-22" width="356" font_size="26" text="{itemstat4}" pivot="left" justify="right" color="[selectedColor]" />
+					    </rect>
+					    <rect pos="0,-207" height="43">
+					    	<sprite depth="8" sprite="menu_empty3px" width="378" height="43" pos="-3,0" color="[black]" type="sliced" fillcenter="false" />
+					    	<sprite depth="1" color="[darkestGrey]" pos="0,-1" height="42" type="sliced" />
+					    	<label depth="3" pos="10,-22" width="356" font_size="26" text="{itemstattitle5}" pivot="left" justify="left" color="[white]" />
+					    	<label depth="3" pos="10,-22" width="356" font_size="26" text="{itemstat5}" pivot="left" justify="right" color="[selectedColor]" />
+				    	</rect>
+				    	<rect pos="0,-248" height="43">
+				    		<sprite depth="8" sprite="menu_empty3px" width="378" height="43" pos="-3,0" color="[black]" type="sliced" fillcenter="false" />
+				    		<sprite depth="1" color="[darkGrey]" type="sliced" />
+				    		<label depth="3" pos="10,-22" width="356" font_size="26" text="{itemstattitle6}" pivot="left" justify="left" color="[white]" />
+				    		<label depth="3" pos="10,-22" width="356" font_size="26" text="{itemstat6}" pivot="left" justify="right" color="[selectedColor]" />
+				    	</rect>
+					    <rect pos="0,-289" height="43">
+					    	<sprite depth="8" sprite="menu_empty3px" width="378" height="43" pos="-3,0" color="[black]" type="sliced" fillcenter="false" />
+					    	<sprite depth="1" color="[darkestGrey]" pos="0,-1" height="42" type="sliced" />
+					    	<label depth="3" pos="10,-22" width="356" font_size="26" text="{itemstattitle7}" pivot="left" justify="left" color="[white]" />
+					    	<label depth="3" pos="10,-22" width="356" font_size="26" text="{itemstat7}" pivot="left" justify="right" color="[selectedColor]" />
+					    </rect>
+				    </rect>
+			    	<rect visible="{showdescription}">
+						<rect depth="1" name="header" pos="0,0" height="43">
+							<sprite color="[lightGrey]" type="sliced" />
+							<sprite depth="8" sprite="menu_empty3px" width="378" pos="-3,0" color="[black]" type="sliced" fillcenter="false" />
+							<label depth="1" pos="0,-22" font_size="32" text="DESCRIPTION" text_key="xuiDescriptionLabel" pivot="left" justify="center" color="[white]" />
+						</rect>
+						<rect pos="0,-43" height="287">
+				    		<sprite depth="1" color="[darkGrey]" type="sliced" globalopacity="true"/>
+				    		<label depth="3" name="descriptionText" pos="10,-10" text="{itemdescription}" width="360" parse_actions="true" />
+						</rect>
+			    	</rect>
+			    </rect>
+				<rect depth="1" name="header" pos="3,-563" width="372" height="43">
+					<sprite color="[lightGrey]" type="sliced" />
+					<sprite depth="8" sprite="menu_empty3px" width="378" pos="-3,0" color="[black]" type="sliced" fillcenter="false" />
+					<label depth="1" pos="0,-22" font_size="32" text="MODIFIERS" text_key="xuiModifiers" pivot="left" justify="center" color="[white]" />
+				</rect>
+				<rect visible="{isnotcomparing}" pos="3,-604">
+			    	<grid name="parts" rows="1" cols="5" pos="0,0" cell_width="75" cell_height="75" repeat_content="true" controller="PartList" visible="{isnotcomparing}">
+			    		<item_stack name="0"/>
+			   		</grid>
+				</rect>
+			    <rect visible="{iscomparing}" pos="3,-604" width="372" height="75">
+			    	<sprite depth="1" color="[mediumGrey]" type="sliced" globalopacity="true" />
+			    	<label depth="3" name="descriptionText" pos="6,-8" text_key="xuiCompareNoModded" justify="center" color="[selectedColor]" />
+		    	</rect>
+		    </rect>
+		</window>
+		<window name="buffInfoPanel" width="436" height="726" controller="BuffInfoWindow" anchor="CenterTop" panel="Center">
+			<rect name="header" height="43" depth="1" >
+				<headerbg />
+				<sprite depth="2" name="windowIcon" style="icon32px" pos="4,-5" sprite="{bufficon}"/>
+				<label style="header.name" text="{buffname}"/>
+				<label depth="2" name="status" pos="0,-10" height="28" justify="right" text="{buffstatus}"/>
+			</rect>
+			<rect name="contentBuffInfo" height="680" depth="1" pos="0,-46">
+				<sprite depth="5" name="backgroundMain" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false"/>
+				<sprite depth="1" name="background" color="[black]" type="sliced" visible="false" sprite="menu_empty3px" fillcenter="false"/>
+				<sprite depth="1" width="373" color="[darkGrey]"  type="sliced" globalopacity="true"/>
+				<rect depth="1" pos="0,0" name="description" width="373" height="420">
+					<label depth="3" name="descriptionText" pos="10,-10" text="{buffdescription}" width="354"/>
+				</rect>
+				<rect depth="4" pos="373,0" width="62">
+					<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="0,0" width="62" color="[black]" type="sliced" fillcenter="false" />
+				   	<sprite pos="0,-280" height="400" color="[mediumGrey]" type="sliced" />
+					<rect pos="3,-3" width="58" visible="{shownormaloptions}" >
+						<grid name="itemActions" rows="4" cols="1" pos="0,0" width="58" cell_width="58" cell_height="70" controller="ItemActionList" repeat_content="true">
+						    <item_action_entry />
+					    </grid>
+				    </rect>
+				</rect>
+			</rect>
+		</window>
+		<window name="serviceInfoPanel" width="436" height="726" controller="ServiceInfoWindow" panel="Center" cursor_area="true" >
+			<rect name="header" height="43" depth="1" >
+				<headerbg />
+				<sprite depth="2" name="windowIcon" style="icon32px" pos="4,-5" sprite="{servicegroupicon}"/>
+				<label depth="2" name="windowName" pos="39,-6" width="347" height="32" text="{servicename}" font_size="32" />
+			</rect>
+			<rect name="contentInfo" height="680" depth="1" pos="0,-46" >
+				<rect depth="1" pos="3,0" name="preview" width="147" height="150">
+					<sprite depth="2" name="servicePreview" width="0" height="0" atlas="UIAtlas" sprite="{serviceicon}" color="{serviceicontint}" pos="0,0" foregroundlayer="true"/>
+				</rect>
+				<rect depth="4" pos="374,0" width="62">
+					<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="0,0" width="62" color="[black]" type="sliced" fillcenter="false" />
+				   	<sprite pos="0,-280" height="400" color="[mediumGrey]" type="sliced" />
+					<rect pos="0,0" width="62" visible="{shownormaloptions}" >
+						<grid name="itemActions" rows="4" cols="1" pos="0,0" width="58" cell_width="58" cell_height="70" controller="ItemActionList" repeat_content="true" visible="false">
+						    <item_action_entry />
+					    </grid>
+				    </rect>
+				</rect>
+				<rect depth="1" name="header" pos="0,0" width="374" height="43">
+					<sprite depth="8" sprite="menu_empty3px" pos="0,0" width="377" color="[black]" type="sliced" fillcenter="false" />
+					<label depth="1" pos="0,-22" font_size="32" text="STATS" text_key="xuiStats" pivot="left" justify="center" color="[white]" />
+				</rect>
+				<rect depth="1" pos="0,-43" name="description" width="374" height="198">
+					<sprite depth="1" color="[mediumGrey]" type="sliced" globalopacity="true" />
+					<sprite depth="3" name="backgroundMain" sprite="menu_empty3px" pos="0,0" width="377" height="201" color="[black]" type="sliced" fillcenter="false" />
+					<label depth="3" name="statText" pos="10,-10" width="354" text="{servicestats}" />
+				</rect>
+				<rect depth="1" name="header" pos="0,-241" width="374" height="43">
+					<sprite depth="8" sprite="menu_empty3px" pos="0,0" width="377" color="[black]" type="sliced" fillcenter="false" />
+					<label depth="1" pos="0,-22" font_size="32" text="DESCRIPTION" text_key="xuiDescriptionLabel" pivot="left" justify="center" color="[white]" />
+				</rect>
+				<rect depth="2" pos="0,-284" name="description" width="388" height="396">
+					<sprite depth="1" color="[darkGrey]" type="sliced" globalopacity="true" />
+					<sprite depth="5" name="backgroundMain" sprite="menu_empty3px" pos="0,3" width="377" height="401" color="[black]" type="sliced" fillcenter="false" />
+					<label depth="3" name="descriptionText" pos="10,-10" text="{servicedescription}"  width="354" height="376" />
+				</rect>
+			</rect>
+		</window>
+    </append>
+
+	<set xpath="/windows/window[@name='ActiveBuffsWindow']/@panel">Left</set>
+	<set xpath="/windows/window[@name='ActiveBuffsWindow']/@width">235</set>
+	<set xpath="/windows/window[@name='ActiveBuffsWindow']/@height">680</set>
+	<setattribute xpath="/windows/window[@name='ActiveBuffsWindow']/rect[@name='header']" name="pos">346,689</setattribute>
+	<set xpath="/windows/window[@name='ActiveBuffsWindow']/rect[@name='content']/@pos">346,643</set>
+	<set xpath="/windows/window[@name='ActiveBuffsWindow']/rect[@name='content']/rect/rect/@pos">130,0</set>
+	<set xpath="/windows/window[@name='ActiveBuffsWindow']/rect[@name='content']/grid/@rows">14</set>
+
+	<set xpath="/windows/window[@name='emptyInfoPanel']/@width">436</set>
+	<set xpath="/windows/window[@name='emptyInfoPanel']/@height">734</set>
+	<set xpath="/windows/window[@name='emptyInfoPanel']/rect[@name='contentCraftingInfo']/@height">688</set>
+	<set xpath="/windows/window[@name='emptyInfoPanel']/rect[@name='contentCraftingInfo']/label[@name='descriptionText']/@pos">20,-340</set>
+	<set xpath="/windows/window[@name='emptyInfoPanel']/rect[@name='contentCraftingInfo']/label[@name='descriptionText']/@width">396</set>
+	<set xpath="/windows/window[@name='emptyInfoPanel']/rect[@name='contentCraftingInfo']/label[@name='descriptionText']/@height">688</set>
+	<set xpath="/windows/window[@name='emptyInfoPanel']/rect[@name='contentCraftingInfo']/sprite[@name='backgroundMain']/@width">436</set>
+	<set xpath="/windows/window[@name='emptyInfoPanel']/rect[@name='contentCraftingInfo']/sprite[@name='backgroundMain']/@height">688</set>
+
+	<remove xpath="/windows/window[@name='windowBackpack']/rect[@name='header']/label[@text='{currencyamount}']"/>
+	<remove xpath="/windows/window[@name='windowBackpack']/rect[@name='header']/sprite[@name='costIcon']"/>
+	<set xpath="/windows/window[@name='windowBackpack']/@width">380</set>
+	<set xpath="/windows/window[@name='windowBackpack']/@height">734</set>
+	<set xpath="/windows/window[@name='windowBackpack']/@panel">Right</set>
+	<set xpath="/windows/window[@name='windowBackpack']/rect[@name='header']/rect[@controller='ContainerStandardControls']/@pos">202,0</set>
+	<set xpath="/windows/window[@name='windowBackpack']/rect[@name='content']/scrollview/grid[@name='inventory']/@rows">20</set>
+	<set xpath="/windows/window[@name='windowBackpack']/rect[@name='content']/scrollview/grid[@name='inventory']/@cols">5</set>
+	<set xpath="/windows/window[@name='windowBackpack']/rect[@name='content']/@height">640</set>
+	<append xpath="/windows/window[@name='windowBackpack']">
+		<rect name="bottomPanel" pos="0,-691" height="43" depth="1">
+			<sprite name="background" color="[black]" type="sliced"/>
+			<label depth="2" pos="306,-12" width="200" height="28" text="{currencyamount}" justify="right" pivot="topright"/>
+			<sprite depth="4" name="costIcon" sprite="ui_game_symbol_coin" size="24,24" pos="338,-12" color="[white]" pivot="topright" foregroundlayer="true" />
+		</rect>
+	</append>
+	<set xpath="/windows/window[@name='windowDewCollector']/@panel">Left</set>
+	<set xpath="/windows/window[@name='windowDewCollectorMods']/@panel">Left</set>
+
+	<set xpath="/windows/window[@name='CharacterFrameWindow']/@width">581</set>
+	<set xpath="/windows/window[@name='CharacterFrameWindow']/@height">680</set>
+	<setattribute xpath="/windows/window[@name='CharacterFrameWindow']/rect[@name='header']" name="width">340</setattribute>
+	<setattribute xpath="/windows/window[@name='CharacterFrameWindow']/rect[@name='tabs']" name="width">340</setattribute>
+	<set xpath="/windows/window[@name='CharacterFrameWindow']/rect[@name='tabs']/rect[@name='tabsContents']/@height">517</set>
+	<set xpath="/windows/window[@name='CharacterFrameWindow']/rect[@name='tabs']/rect[@name='previewFrameSDCS']/@height">654</set>
+
+	<set xpath="/windows/window[@name='windowCraftingList']/@height">600</set>
+	<remove xpath="/windows/window[@name='windowCraftingList']/rect[@name='header']"/>
+	<set xpath="/windows/window[@name='windowCraftingList']/rect[@name='content']/@pos">0,0</set>
+	<!--remove xpath="/windows/window[@name='windowCraftingList']/rect[@name='content']/@sprite[@name='backgroundMain']" /-->
+	<remove xpath="/windows/window[@name='windowCraftingList']/rect[@name='content']/rect[@name='categorySelector']/@sprite[@color='[mediumGrey]']" />
+	<append xpath="/windows/window[@name='windowCraftingList']/rect[@name='content']/rect[@name='categorySelector']">
+		<headerbg />
+	</append>
+	<set xpath="/windows/window[@name='windowCraftingList']/rect[@name='content']/grid[@name='recipes']/@rows">11</set>
+
+	<set xpath="/windows/window[@name='windowCraftingQueue']/@width">379</set>
+	<set xpath="/windows/window[@name='windowCraftingQueue']/@height">78</set>
+	<append xpath="/windows/window[@name='windowCraftingQueue']">
+		<rect name="header" height="43" depth="1">
+			<headerbg />
+			<sprite style="header.icon" sprite="ui_game_symbol_hammer"/>
+			<label style="header.name" text="Crafting Queue" text_key="xuiCraftingQueue"/>
+		</rect>
+	</append>
+	<set xpath="/windows/window[@name='windowCraftingQueue']/rect[@controller='CraftingQueue']/@pos">0,-43</set>
+	<set xpath="/windows/window[@name='windowCraftingQueue']/rect[@controller='CraftingQueue']/@with">379</set>
+	<set xpath="/windows/window[@name='windowCraftingQueue']/rect[@controller='CraftingQueue']/grid[@name='queue']/@cols">5</set>
+	<set xpath="/windows/window[@name='windowCraftingQueue']/rect[@controller='CraftingQueue']/grid[@name='queue']/@pos">3,-6</set>
+
+</Config>

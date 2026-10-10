@@ -1,12 +1,31 @@
-# PfaltzUI
-Server-side Vertical UI for "7 days to die"
+# VerticalUI (VUI)
+Server-side Vertical UI for "7 Days to Die"
 
-The peculiarity of this user interface mod is the vertical windows, the following have been changed: the crafting window, the view window of the crafting item, the backpack. Also, apart from the main mod, there is an "Extension of the standard character window", "Increasing the bag by 63 or 90 cells", "Adding a colored substrate to the cells with items and to the viewing window of the item. which reflects the quality of the item". You only need to install the mod on the server side. I was inspired to develop this mod by [SMX](https://github.com/Sirillion ) and [RamosUI](https://7daystodiemods.com/ramos-xui/)
+Adapted to game version 3.3.0 .
 
+## Features
+- Vertical item info panel
+- Vertical craft info panel
+- Vertical active buff panel
+- Vertical backpack
+- Server-side only — no client install required
+
+## Installation
+1. Place `VerticalUI` folder into `Mods/` on the server.
+2. Restart the server.
+3. Clients connect — UI is applied automatically.
+
+## Compatibility
+- Game version: 3.3.0
+- Uses `templates.xml` and `windows.xml` and `xui.xml` patches
+- Tested with vanilla; other UI mods may conflict
+
+## Screenshots
 <p align="left">
-  <img src="Screenshots/logo.png" width="1000" title="Logo">
   <img src="Screenshots/common.png" width="1000" title="Screenshot">
-  <img src="Screenshots/stations.gif" width="1000" title="Stations windows">
-  <img src="Screenshots/character.png" width="470" title="Character and buff windows"><img src="Screenshots/craft%5Cinfo%5Cbuff%20panel.gif" width="491" title="craft\info\buff panel">
-   <img src="Screenshots/trader.png" width="593" title="Trader window">
+  <img src="Screenshots/craftinfopanel1.gif" width="1000">
+  <img src="Screenshots/craftinfopanel2.gif" width="1000">
+  <img src="Screenshots/iteminfopanel.gif" width="1000">
+  <img src="Screenshots/character_buffs.png" width="470" title="Character and buff windows">
+  <img src="Screenshots/trader.png" width="593" title="Trader window">
 </p>

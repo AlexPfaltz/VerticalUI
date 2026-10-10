@@ -20,10 +20,4 @@
 	<insertBefore xpath="//window_group[@name='workstation_chemistryStation']/window[@name='craftingInfoPanel']">
   		<window name="windowCraftingListWorkstation"/>
 	</insertBefore>
-		
-	<set xpath="//window_group[@name='dewcollector']">
-		<window name="windowDewCollectorMods" />
-		<window name="windowDewCollector"/>
-		<window name="windowNonPagingHeader" />
-	</set>
 </Config>

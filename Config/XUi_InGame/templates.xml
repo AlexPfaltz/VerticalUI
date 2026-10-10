@@ -1,0 +1,65 @@
+<Config>
+	<set xpath="/templates/item_action_entry/rect/@height">70</set>
+	<set xpath="/templates/item_action_entry/rect/sprite[@name='background']/@width">56</set>
+	<setattribute xpath="/templates/item_action_entry/rect/sprite[@name='background']" name="tootip">{actionname}</setattribute>
+	<set xpath="/templates/item_action_entry/rect/sprite[@name='Icon']/@pos">28,-10</set>
+	<setattribute xpath="/templates/item_action_entry/rect/sprite[@name='Icon']" name="pivot">top</setattribute>
+	<set xpath="/templates/item_action_entry/rect/label[@name='Name']/@pos">0,0</set>
+	<set xpath="/templates/item_action_entry/rect/label[@name='Name']/@width">0</set>
+	<set xpath="/templates/item_action_entry/rect/label[@name='Name']/@height">0</set>
+	<set xpath="/templates/item_action_entry/rect/label[@name='Name']/@text">.</set>
+	<set xpath="/templates/item_action_entry/rect/label[@name='Name']/@font_size">1</set>
+	<set xpath="/templates/item_action_entry/rect/gamepad_icon[@name='gamepadIcon']/@pos">28,-70</set>
+	<set xpath="/templates/item_action_entry/rect/gamepad_icon[@name='gamepadIcon']/@size">32,32</set>
+	<set xpath="/templates/item_action_entry/rect/gamepad_icon[@name='gamepadIcon']/@pivot">bottom</set>
+	<set xpath="/templates/item_action_entry/rect/label[@name='keyboardButton']/@pos">0,-70</set>
+	<set xpath="/templates/item_action_entry/rect/label[@name='keyboardButton']/@width">56</set>
+	<set xpath="/templates/item_action_entry/rect/label[@name='keyboardButton']/@pivot">bottomLeft</set>
+
+	<set xpath="/templates/ingredient_row/rect/@name">grid</set>
+	<set xpath="/templates/ingredient_row/rect/@width">75</set>
+	<set xpath="/templates/ingredient_row/rect/@height">75</set>
+	<set xpath="/templates/ingredient_row/rect/rect/@width">75</set>
+	<set xpath="/templates/ingredient_row/rect/rect/@height">75</set>
+	<remove xpath="/templates/ingredient_row/rect/rect[@pos]"/>
+	<set xpath="/templates/ingredient_row/rect/rect/sprite[@name='backgroundMain']/@width">78</set>
+	<set xpath="/templates/ingredient_row/rect/rect/sprite[@name='backgroundMain']/@height">78</set>
+	<setattribute xpath="/templates/ingredient_row/rect" name="style">hover</setattribute>
+	<setattribute xpath="/templates/ingredient_row/rect" name="tootip">{itemname}</setattribute>
+	<set xpath="/templates/ingredient_row/rect/rect/sprite[@name='icon']/@pos">37,-3</set>
+	<set xpath="/templates/ingredient_row/rect/rect/sprite[@name='icon']/@width">64</set>
+	<set xpath="/templates/ingredient_row/rect/rect/sprite[@name='icon']/@height">64</set>
+	<set xpath="/templates/ingredient_row/rect/rect/sprite[@name='icon']/@pivot">top</set>
+	<append xpath="/templates/ingredient_row/rect/rect">
+		<label depth="5" name="needCount" pos="36,-73" width="75" height="20" font_size="20" color="[labelColor]" effect="outline" effect_distance="1,1" effect_color="0,0,0,255" justify="center" pivot="bottom" text="{haveneedcount}"/>
+	</append>
+
+	<set xpath="/templates/active_buff_entry/rect/@width">229</set>
+	<set xpath="/templates/active_buff_entry/rect/sprite[@name='backgroundMain']/@width">235</set>
+	<set xpath="/templates/active_buff_entry/rect/sprite[@name='background']/@width">231</set>
+	<set xpath="/templates/active_buff_entry/rect/label/@width">175</set>
+
+	<set xpath="/templates/unlocked_by_row/rect/@name">grid</set>
+	<set xpath="/templates/unlocked_by_row/rect/@width">75</set>
+	<set xpath="/templates/unlocked_by_row/rect/@height">75</set>
+	<set xpath="/templates/unlocked_by_row/rect/rect[1]/@width">75</set>
+	<set xpath="/templates/unlocked_by_row/rect/rect[1]/@height">75</set>
+	<set xpath="/templates/unlocked_by_row/rect/rect[1]/sprite[@name='backgroundMain']/@width">78</set>
+	<set xpath="/templates/unlocked_by_row/rect/rect[1]/sprite[@name='backgroundMain']/@height">78</set>
+	<set xpath="/templates/unlocked_by_row/rect/rect[1]/sprite[@name='icon']/@pos">37,-37</set>
+	<set xpath="/templates/unlocked_by_row/rect/rect[2]/@pos">75,0</set>
+	<set xpath="/templates/unlocked_by_row/rect/rect[2]/@width">225</set>
+	<set xpath="/templates/unlocked_by_row/rect/rect[2]/@height">75</set>
+	<set xpath="/templates/unlocked_by_row/rect/rect[2]/sprite[@name='backgroundMain']/@width">228</set>
+	<set xpath="/templates/unlocked_by_row/rect/rect[2]/sprite[@name='backgroundMain']/@height">78</set>
+	<setattribute xpath="/templates/unlocked_by_row/rect/rect[2]/label" name="pivot">center</setattribute>
+	<set xpath="/templates/unlocked_by_row/rect/rect[2]/label/@pos">112,-37</set>
+	<set xpath="/templates/unlocked_by_row/rect/rect[3]/@pos">300,0</set>
+	<set xpath="/templates/unlocked_by_row/rect/rect[3]/@width">75</set>
+	<set xpath="/templates/unlocked_by_row/rect/rect[3]/@height">75</set>
+	<set xpath="/templates/unlocked_by_row/rect/rect[3]/sprite[@name='backgroundMain']/@width">77</set>
+	<set xpath="/templates/unlocked_by_row/rect/rect[3]/sprite[@name='backgroundMain']/@height">78</set>
+	<set xpath="/templates/unlocked_by_row/rect/rect[3]/label/@pos">0,-37</set>
+	<setattribute xpath="/templates/unlocked_by_row/rect/rect[3]/label" name="pivot">center</setattribute>
+	<set xpath="/templates/unlocked_by_row/rect/rect[3]/label/@pos">37,-37</set>
+</Config>
