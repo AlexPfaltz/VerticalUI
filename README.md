@@ -23,9 +23,9 @@ Adapted to game version 3.3.0 .
 ## Screenshots
 <p align="left">
   <img src="Screenshots/common.png" width="1000" title="Screenshot">
-  <img src="Screenshots/craftinfopanel1.gif" width="1000">
-  <img src="Screenshots/craftinfopanel2.gif" width="1000">
-  <img src="Screenshots/iteminfopanel.gif" width="1000">
-  <img src="Screenshots/character_buffs.png" width="470" title="Character and buff windows">
-  <img src="Screenshots/trader.png" width="593" title="Trader window">
+  <img src="Screenshots/craftinfopanel1.png" width="1000">
+  <img src="Screenshots/craftinfopanel2.png" width="1000">
+  <img src="Screenshots/iteminfopanel.png" width="1000">
+  <img src="Screenshots/character_buffs.png" width="1000" title="Character and buff windows">
+  <img src="Screenshots/trader.png" width="1000" title="Trader window">
 </p>
