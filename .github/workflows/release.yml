@@ -1,0 +1,25 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create release ZIP (without screenshots)
+        run: |
+          mkdir -p /tmp/VerticalUI
+          cp -r Config ModInfo.xml /tmp/VerticalUI/
+          cd /tmp
+          zip -r VerticalUI-${{ github.ref_name }}.zip VerticalUI/
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: /tmp/VerticalUI-${{ github.ref_name }}.zip
+          generate_release_notes: true
