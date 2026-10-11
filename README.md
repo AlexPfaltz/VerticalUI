@@ -26,6 +26,8 @@ Adapted to game version 3.3.0 .
   <img src="Screenshots/craftinfopanel1.png" width="1000">
   <img src="Screenshots/craftinfopanel2.png" width="1000">
   <img src="Screenshots/iteminfopanel.png" width="1000">
+  <img src="Screenshots/serviceInfoPanel1.png" width="1000">
+  <img src="Screenshots/serviceInfoPanel2.png" width="1000">
   <img src="Screenshots/character_buffs.png" width="1000" title="Character and buff windows">
   <img src="Screenshots/trader.png" width="1000" title="Trader window">
 </p>
