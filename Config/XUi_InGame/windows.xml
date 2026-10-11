@@ -370,13 +370,14 @@
 				<rect depth="4" pos="374,0" width="62">
 					<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="0,0" width="62" color="[black]" type="sliced" fillcenter="false" />
 				   	<sprite pos="0,-280" height="400" color="[mediumGrey]" type="sliced" />
-					<rect pos="0,0" width="62" visible="{shownormaloptions}" >
-						<grid name="itemActions" rows="4" cols="1" pos="0,0" width="58" cell_width="58" cell_height="70" controller="ItemActionList" repeat_content="true" visible="false">
+					<rect pos="3,-3" width="62" visible="{shownormaloptions}" >
+						<grid name="itemActions" rows="4" cols="1" pos="0,0" width="58" cell_width="58" cell_height="70" controller="ItemActionList" repeat_content="true">
 						    <item_action_entry />
 					    </grid>
 				    </rect>
 				</rect>
 				<rect depth="1" name="header" pos="0,0" width="374" height="43">
+					<sprite depth="1" color="[mediumGrey]" type="sliced" globalopacity="true" />
 					<sprite depth="8" sprite="menu_empty3px" pos="0,0" width="377" color="[black]" type="sliced" fillcenter="false" />
 					<label depth="1" pos="0,-22" font_size="32" text="STATS" text_key="xuiStats" pivot="left" justify="center" color="[white]" />
 				</rect>
@@ -386,6 +387,7 @@
 					<label depth="3" name="statText" pos="10,-10" width="354" text="{servicestats}" />
 				</rect>
 				<rect depth="1" name="header" pos="0,-241" width="374" height="43">
+					<sprite depth="1" color="[mediumGrey]" type="sliced" globalopacity="true" />
 					<sprite depth="8" sprite="menu_empty3px" pos="0,0" width="377" color="[black]" type="sliced" fillcenter="false" />
 					<label depth="1" pos="0,-22" font_size="32" text="DESCRIPTION" text_key="xuiDescriptionLabel" pivot="left" justify="center" color="[white]" />
 				</rect>
