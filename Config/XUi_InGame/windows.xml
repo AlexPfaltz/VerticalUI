@@ -467,7 +467,7 @@
 		</rect>
 	</append>
 	<set xpath="/windows/window[@name='windowCraftingQueue']/rect[@controller='CraftingQueue']/@pos">0,-43</set>
-	<set xpath="/windows/window[@name='windowCraftingQueue']/rect[@controller='CraftingQueue']/@with">379</set>
+	<set xpath="/windows/window[@name='windowCraftingQueue']/rect[@controller='CraftingQueue']/@width">379</set>
 	<set xpath="/windows/window[@name='windowCraftingQueue']/rect[@controller='CraftingQueue']/grid[@name='queue']/@cols">5</set>
 	<set xpath="/windows/window[@name='windowCraftingQueue']/rect[@controller='CraftingQueue']/grid[@name='queue']/@pos">3,-6</set>
 

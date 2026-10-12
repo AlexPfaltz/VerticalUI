@@ -1,7 +1,8 @@
 <Config>
 	<set xpath="/templates/item_action_entry/rect/@height">70</set>
 	<set xpath="/templates/item_action_entry/rect/sprite[@name='background']/@width">56</set>
-	<setattribute xpath="/templates/item_action_entry/rect" name="tootip">{actionname}</setattribute>
+	<setattribute xpath="/templates/item_action_entry/rect" name="tooltip">{actionname}</setattribute>
+	<setattribute xpath="/templates/item_action_entry/rect/sprite[@name='background']" name="tooltip">{actionname}</setattribute>
 	<set xpath="/templates/item_action_entry/rect/sprite[@name='Icon']/@pos">28,-10</set>
 	<setattribute xpath="/templates/item_action_entry/rect/sprite[@name='Icon']" name="pivot">top</setattribute>
 	<set xpath="/templates/item_action_entry/rect/label[@name='Name']/@pos">0,0</set>
@@ -25,7 +26,7 @@
 	<set xpath="/templates/ingredient_row/rect/rect/sprite[@name='backgroundMain']/@width">78</set>
 	<set xpath="/templates/ingredient_row/rect/rect/sprite[@name='backgroundMain']/@height">78</set>
 	<setattribute xpath="/templates/ingredient_row/rect" name="style">hover</setattribute>
-	<setattribute xpath="/templates/ingredient_row/rect" name="tootip">{itemname}</setattribute>
+	<setattribute xpath="/templates/ingredient_row/rect" name="tooltip">{itemname}</setattribute>
 	<set xpath="/templates/ingredient_row/rect/rect/sprite[@name='icon']/@pos">37,-3</set>
 	<set xpath="/templates/ingredient_row/rect/rect/sprite[@name='icon']/@width">64</set>
 	<set xpath="/templates/ingredient_row/rect/rect/sprite[@name='icon']/@height">64</set>
